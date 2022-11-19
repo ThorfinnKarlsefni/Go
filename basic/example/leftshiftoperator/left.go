@@ -14,4 +14,6 @@ func Init() {
 	flag := Active | Send
 
 	fmt.Println(flag)
+	fmt.Println(Active)
+	fmt.Println(Send)
 }

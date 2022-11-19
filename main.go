@@ -1,9 +1,13 @@
 package main
 
-import "go/basic/example/crash"
+import (
+	"go/basic/exercise"
+)
 
 // import "go/basic/hello"
 
 func main() {
-	crash.TestCrash()
+	// exercise.Season(7)
+	// for1.String()
+	exercise.Problem()
 }
