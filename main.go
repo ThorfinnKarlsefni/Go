@@ -8,6 +8,5 @@ import (
 
 func main() {
 	// exercise.Season(7)
-	exercise.Val2()
-
+	exercise.VarArgs()
 }
