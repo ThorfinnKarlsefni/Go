@@ -1,9 +1,12 @@
 package main
 
+import (
+	"go/basic/exercise"
+)
+
 // import "go/basic/hello"
-import "go/basic/example/deferandtrace"
 
 func main() {
 	// exercise.Season(7)
-	deferandtrace.Log1()
+	exercise.Fact()
 }
