@@ -8,5 +8,5 @@ import (
 
 func main() {
 	// exercise.Season(7)
-	exercise.Fact()
+	exercise.Replace()
 }
