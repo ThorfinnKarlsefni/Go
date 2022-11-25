@@ -12,6 +12,7 @@ func Replace() {
 }
 
 func recursion(str string) string {
+	arr := []byte(str)
 
 	rot13 := func(r rune) bool {
 		if r == '?' {
@@ -20,14 +21,11 @@ func recursion(str string) string {
 		return false
 	}
 
-	index := strings.IndexFunc(string(str), rot13)
+	index := strings.IndexFunc(string(arr), rot13)
 
 	if index > 0 {
-		arr := []byte(str)
 		arr[index] = '.'
 		recursion(string(arr))
-		println(string(arr), "111")
-		return string(arr)
 	}
-	return str
+	return string(arr)
 }
