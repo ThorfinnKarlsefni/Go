@@ -4,7 +4,7 @@ import "fmt"
 
 func Init() {
 	result := 0
-	for i := 0; i <= 10; i++ {
+	for i := 0; i <= 41; i++ {
 		result = fibonacci(i)
 		fmt.Printf("fibonacci(%d) is %d\n", i, result)
 	}

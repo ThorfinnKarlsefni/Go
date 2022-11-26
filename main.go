@@ -8,5 +8,6 @@ import (
 
 func main() {
 	// exercise.Season(7)
-	exercise.Replace()
+	exercise.TestMemoryCache()
+	exercise.TestCalculationTime()
 }

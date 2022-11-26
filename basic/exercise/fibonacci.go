@@ -3,8 +3,8 @@ package exercise
 import "fmt"
 
 func Fibonacci() {
-	res := fibo(2)
-	fmt.Printf("fibonacci is value %d", res)
+	res := fibo(14)
+	fmt.Printf("fibonacci is value %d\n", res)
 }
 
 func fibo(i int) (res int) {
