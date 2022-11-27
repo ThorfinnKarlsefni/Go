@@ -8,6 +8,8 @@ import (
 
 func main() {
 	// exercise.Season(7)
-	exercise.TestMemoryCache()
-	exercise.TestCalculationTime()
+	exercise.ExampleFibonacci()
+	exercise.FibonacciArrayNotCache()
+	exercise.FibonacciTestRecursion()
+	exercise.FibonacciTestRecursionCache()
 }
