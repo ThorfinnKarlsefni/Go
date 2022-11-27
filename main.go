@@ -6,5 +6,5 @@ import "go/basic/exercise"
 
 func main() {
 	// exercise.Season(7)
-	exercise.SliceAppend()
+	exercise.SumArrayExercise()
 }
