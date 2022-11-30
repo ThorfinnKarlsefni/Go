@@ -9,15 +9,15 @@ func Fact() {
 	fmt.Println(result)
 }
 
-func factorial(ret int) (result int) {
-	if ret > 0 {
-		result = ret * factorial(ret-1)
-		return result
-	} else {
-		result = 1
-		return result
-	}
-}
+// func factorial(ret int) (result int) {
+// 	if ret > 0 {
+// 		result = ret * factorial(ret-1)
+// 		return result
+// 	} else {
+// 		result = 1
+// 		return result
+// 	}
+// }
 
 func factorial1(ret int) int {
 	var result1 int
