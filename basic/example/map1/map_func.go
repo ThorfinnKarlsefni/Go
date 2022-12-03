@@ -2,7 +2,7 @@ package map1
 
 import "fmt"
 
-func main() {
+func MapFunc() {
 	mf := map[int]func() int{
 		1: func() int { return 10 },
 		2: func() int { return 20 },

@@ -2,7 +2,7 @@ package map1
 
 import "fmt"
 
-func main() {
+func MakeMap() {
 	var mapLit map[string]int
 	var mapAssigned map[string]int
 

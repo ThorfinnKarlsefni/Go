@@ -1,10 +1,10 @@
 package main
 
-import "go/basic/exercise"
+import "go/basic/example/map1"
 
 // import "go/basic/hello"
 
 func main() {
 	// exercise.Season(7)
-	exercise.MapFunction()
+	map1.Drink()
 }
