@@ -2,7 +2,7 @@ package function1
 
 import "fmt"
 
-func Init() {
+func Def() {
 	function1()
 }
 
