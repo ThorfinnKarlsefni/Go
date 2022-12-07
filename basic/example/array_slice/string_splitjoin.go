@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func Init() {
+func StrSplice() {
 	str := "The quick brown fox jumps over the lazy dog"
 	sl := strings.Fields(str)
 	fmt.Printf("Splitted in slice: %v\n", sl)
