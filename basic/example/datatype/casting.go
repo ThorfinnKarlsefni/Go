@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func Init() {
+func Cast() {
 	var n int16 = 34
 	var m int32
 

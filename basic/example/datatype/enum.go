@@ -16,7 +16,7 @@ const (
 	YB
 )
 
-func Init() {
+func Enum() {
 	fmt.Println(KB)
 	fmt.Println(MB)
 	fmt.Println(1 << 4)

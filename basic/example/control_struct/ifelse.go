@@ -2,7 +2,7 @@ package control_struct
 
 import "fmt"
 
-func Init() {
+func If1() {
 	var first int = 10
 	var cond int
 
