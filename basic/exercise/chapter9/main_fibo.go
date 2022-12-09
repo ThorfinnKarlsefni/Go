@@ -1,8 +1,8 @@
-package package1
+package exercise
 
 import (
 	"fmt"
-	"go/basic/example/package1/fibo"
+	"go/basic/exercise/chapter9/fibo"
 )
 
 var nextFibo int

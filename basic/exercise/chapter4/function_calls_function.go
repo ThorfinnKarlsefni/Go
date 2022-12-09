@@ -1,19 +1,17 @@
 package exercise
 
-var str string
+var a string // global scope
 
-func Calls() {
+func main() {
 	a = "G"
 	print(a)
 	f1()
 }
-
 func f1() {
-	a := "O"
+	a := "O" // new local variable a, only scoped within f1() !
 	print(a)
 	f2()
 }
-
 func f2() {
-	print(a)
+	print(a) // global variable is taken
 }

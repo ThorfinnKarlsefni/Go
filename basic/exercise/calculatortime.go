@@ -2,7 +2,7 @@ package exercise
 
 import (
 	"fmt"
-	rec "go/basic/example/array_slice"
+	rec "go/basic/example/chapter7"
 	"time"
 )
 

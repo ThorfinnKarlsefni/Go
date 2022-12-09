@@ -1,8 +1,8 @@
-package package1
+package exercise
 
 import (
 	"fmt"
-	"go/basic/example/package1/even"
+	"go/basic/exercise/chapter9/even"
 )
 
 func Oddven() {
