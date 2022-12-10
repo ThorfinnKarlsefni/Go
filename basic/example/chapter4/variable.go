@@ -1,4 +1,4 @@
-package datatype
+package chapter4
 
 import (
 	"fmt"
