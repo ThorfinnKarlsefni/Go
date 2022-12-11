@@ -6,5 +6,5 @@ import "go/basic/exercise/chapter11"
 
 func main() {
 	// exercise.Season(7)
-	chapter11.FloatSortMain()
+	chapter11.Stack()
 }
