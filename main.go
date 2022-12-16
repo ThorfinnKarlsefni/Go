@@ -9,5 +9,5 @@ import (
 func main() {
 	// exercise.Season(7)
 	//chapter11.CarTest()
-	chapter12.Calculator()
+	chapter12.CatTest()
 }
