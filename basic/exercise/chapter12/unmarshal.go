@@ -1,4 +1,4 @@
-package main
+package chapter12
 
 import (
 	"encoding/json"
@@ -22,7 +22,7 @@ type VCard struct {
 	Remark    string
 }
 
-func main() {
+func Unmarshal() {
 	data, err := os.Open("../../example/chapter12/vcard.json")
 	if err != nil {
 		fmt.Println(nil)

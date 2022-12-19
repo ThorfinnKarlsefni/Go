@@ -1,4 +1,4 @@
-package main
+package chapter12
 
 import (
 	"encoding/json"
@@ -15,7 +15,7 @@ type User struct {
 	Status Status
 }
 
-func main() {
+func Twitter() {
 	res, _ := http.Get("http://twitter.com/users/Googland.json")
 
 	user := User{Status{""}}

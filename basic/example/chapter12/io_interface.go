@@ -1,4 +1,4 @@
-package main
+package chapter12
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func Io_interface() {
 	fmt.Fprintf(os.Stdout, "%s\n", "hello world! - unbuufered")
 	// buffered: os.Stdout implements io.Writer
 	buf := bufio.NewWriter(os.Stdout)

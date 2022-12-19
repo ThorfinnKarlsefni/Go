@@ -1,4 +1,4 @@
-package main
+package chapter12
 
 import (
 	"encoding/json"
@@ -20,7 +20,7 @@ type VCard struct {
 	Remark    string
 }
 
-func main() {
+func JsonTest() {
 	pa := &Address{"private", "Aartselaar", "Belgium"}
 	wa := &Address{"work", "Boom", "Belgium"}
 	vc := VCard{"jan", "Kersschot", []*Address{pa, wa}, "none"}

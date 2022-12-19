@@ -1,4 +1,4 @@
-package main
+package chapter12
 
 import (
 	"bufio"
@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main() {
+func Remove_3t() {
 	inputFile, _ := os.Open("goprogram")
 	outputFile, _ := os.OpenFile("goprogramT", os.O_WRONLY|os.O_CREATE, 0666)
 	defer inputFile.Close()
