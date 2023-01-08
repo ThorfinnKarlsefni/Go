@@ -7,5 +7,5 @@ import "go/basic/exercise/chapter12"
 func main() {
 	// exercise.Season(7)
 	//chapter11.CarTest()
-	chapter12.Degob()
+	chapter12.Md5()
 }
