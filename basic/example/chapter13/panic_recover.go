@@ -18,7 +18,12 @@ func test() {
 }
 
 func Pan() {
-	fmt.Println("Calling test\r\n")
-	test()
-	fmt.Println("Test completed\r\n")
+	//fmt.Println("Calling test\r\n")
+	//test()
+	//fmt.Println("Test completed\r\n")
+	number, err := Parse("life")
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(number)
 }
