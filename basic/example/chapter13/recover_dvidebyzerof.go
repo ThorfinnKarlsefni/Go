@@ -19,8 +19,8 @@ func test1() {
 	fmt.Printf("After bad call\r\n")
 }
 
-func DivisionByZero() {
-	fmt.Println("calling test\r\n")
-	test1()
-	fmt.Println("test completed\r\n")
-}
+//func DivisionByZero() {
+//	fmt.Println("calling test\r\n")
+//	test1()
+//	fmt.Println("test completed\r\n")
+//}
